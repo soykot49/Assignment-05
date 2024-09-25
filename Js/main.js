@@ -11,7 +11,7 @@ document.getElementById('donate-1').addEventListener('click', function () {
     const mainAmount = parseFloat(mainBalance);
     if (!isNaN(aidMoney) && aidMoneyAmount >= 0) {
         if (aidMoney > mainAmount) {
-            alert('Don not have enough money in balance');
+            alert("Don't have enough money in balance");
             return;
         }
         const totalFund = aidMoneyAmount + fundBalance;
